@@ -47,8 +47,8 @@ class AccountHolders extends BaseResource
         return new ExternalAccounts($this->connector);
     }
 
-    public function hostedOnboarding(): ExternalAccounts
+    public function hostedOnboarding(): HostedOnboarding
     {
-        return new ExternalAccounts($this->connector);
+        return new HostedOnboarding($this->connector);
     }
 }
