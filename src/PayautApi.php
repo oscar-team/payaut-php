@@ -8,6 +8,7 @@ use OscarTeam\Payaut\Resources\ManagePayouts;
 use OscarTeam\Payaut\Resources\Reporting;
 use OscarTeam\Payaut\Resources\SplitPayments;
 use OscarTeam\Payaut\Resources\Transactions;
+use OscarTeam\Payaut\Resources\WebhookConfigurations;
 use Saloon\Http\Connector;
 
 class PayautApi extends Connector
@@ -67,5 +68,10 @@ class PayautApi extends Connector
     public function reporting(): Reporting
     {
         return new Reporting($this);
+    }
+
+    public function webhookConfiguration(): WebhookConfigurations
+    {
+        return new WebhookConfigurations($this);
     }
 }
