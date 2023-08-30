@@ -194,6 +194,22 @@ $requestData = [
 $client->reporting()->getReportForSpecificAccount(report: 'string', requestData: $requestData)->json();
 ```
 
+### [Webhooks]('https://apidocs.payaut.com/#tag/Webhooks')
+```php
+$requestData = [
+    "url" => "https://webhook.site/38b93d22-0621-4984-b9b5-35f834afad4e",
+    "isActivated": true,
+    "type": "WEBHOOK_KYC_UPDATE"
+];
+$client->webhookConfiguration()->create(requestData: $requestData)->json();
+$client->webhookConfiguration()->update(
+    configurationId: 'configurationId',
+    requestData: $requestData)->json();
+$client->webhookConfiguration()->get(configurationId: 'configurationId')->json();
+$client->webhookConfiguration()->list()->json();
+```
+
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
