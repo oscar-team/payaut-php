@@ -70,7 +70,7 @@ $client->accountHolders()->externalAccounts()->selectActiveExternalAccount(
 $client->accountHolders()->hostedOnboarding()->generateUrl(
         accountHolderCode: 'accountHolderCode',
         queryParams: []
-)->json();
+)->body();
 ```
 
 ### [Split Payments Apis]('https://apidocs.payaut.com/#tag/Splits')
