@@ -3,11 +3,11 @@
 namespace OscarTeam\Payaut\Resources;
 
 use OscarTeam\Payaut\BaseResource;
-use OscarTeam\Payaut\Requests\AccountHolders\CreateExternalAccount;
-use OscarTeam\Payaut\Requests\AccountHolders\GetExternalAccount;
-use OscarTeam\Payaut\Requests\AccountHolders\ListExternalAccounts;
-use OscarTeam\Payaut\Requests\AccountHolders\SelectActiveExternalAccount;
-use OscarTeam\Payaut\Requests\AccountHolders\UpdateExternalAccount;
+use OscarTeam\Payaut\Requests\ExternalAccounts\CreateExternalAccount;
+use OscarTeam\Payaut\Requests\ExternalAccounts\GetExternalAccount;
+use OscarTeam\Payaut\Requests\ExternalAccounts\ListExternalAccounts;
+use OscarTeam\Payaut\Requests\ExternalAccounts\SelectActiveExternalAccount;
+use OscarTeam\Payaut\Requests\ExternalAccounts\UpdateExternalAccount;
 use Saloon\Contracts\Response;
 
 class ExternalAccounts extends BaseResource

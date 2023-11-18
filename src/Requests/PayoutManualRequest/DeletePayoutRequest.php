@@ -19,6 +19,6 @@ class DeletePayoutRequest extends Request implements HasBody
 
     public function resolveEndpoint(): string
     {
-        return "/v2/fund/payout-requests/{$this->code}";
+        return "/v1/fund/payout-requests/{$this->code}";
     }
 }

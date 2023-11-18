@@ -19,7 +19,7 @@ class CreatePayoutRequest extends Request implements HasBody
 
     public function resolveEndpoint(): string
     {
-        return "/v2/fund/payout-requests";
+        return "/v1/fund/payout-requests";
     }
 
     protected function defaultBody(): array

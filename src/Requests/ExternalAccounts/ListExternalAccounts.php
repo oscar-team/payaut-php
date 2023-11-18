@@ -1,5 +1,5 @@
 <?php
-namespace OscarTeam\Payaut\Requests\AccountHolders;
+namespace OscarTeam\Payaut\Requests\ExternalAccounts;
 
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
