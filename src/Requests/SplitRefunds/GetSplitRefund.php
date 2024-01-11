@@ -1,6 +1,6 @@
 <?php
 
-namespace OscarTeam\Payaut\Requests\SplitPayments;
+namespace OscarTeam\Payaut\Requests\SplitRefunds;
 
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
