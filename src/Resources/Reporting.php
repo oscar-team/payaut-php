@@ -5,7 +5,7 @@ namespace OscarTeam\Payaut\Resources;
 use OscarTeam\Payaut\BaseResource;
 use OscarTeam\Payaut\Requests\Reporting\ListReports;
 use OscarTeam\Payaut\Requests\Reporting\RequestReports;
-use Saloon\Contracts\Response;
+use Saloon\Http\Response;
 
 class Reporting extends BaseResource
 {

@@ -2,7 +2,7 @@
 
 namespace OscarTeam\Payaut;
 
-use Saloon\Contracts\Connector;
+use Saloon\Http\Connector;
 
 class BaseResource
 {

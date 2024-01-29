@@ -7,7 +7,7 @@ use OscarTeam\Payaut\Requests\CancelSplit\CancelSplit;
 use OscarTeam\Payaut\Requests\SplitPayments\CreateSplitPayment;
 use OscarTeam\Payaut\Requests\SplitPayments\GetSplitPayment;
 use OscarTeam\Payaut\Requests\SplitPayments\ListSplitPayments;
-use Saloon\Contracts\Response;
+use Saloon\Http\Response;
 
 class SplitPayments extends BaseResource
 {

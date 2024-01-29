@@ -7,7 +7,7 @@ use OscarTeam\Payaut\Requests\Webhooks\CreateWebhookConfiguration;
 use OscarTeam\Payaut\Requests\Webhooks\GetWebhookConfiguration;
 use OscarTeam\Payaut\Requests\Webhooks\UpdateWebhookConfiguration;
 use OscarTeam\Payaut\Requests\Webhooks\ListWebhookConfigurations;
-use Saloon\Contracts\Response;
+use Saloon\Http\Response;
 
 class WebhookConfigurations extends BaseResource
 {

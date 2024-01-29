@@ -8,7 +8,7 @@ use OscarTeam\Payaut\Requests\AccountHolders\DeleteAccountHolder;
 use OscarTeam\Payaut\Requests\AccountHolders\GetAccountHolder;
 use OscarTeam\Payaut\Requests\AccountHolders\ListAccountHolders;
 use OscarTeam\Payaut\Requests\AccountHolders\UpdateAccountHolder;
-use Saloon\Contracts\Response;
+use Saloon\Http\Response;
 
 class AccountHolders extends BaseResource
 {

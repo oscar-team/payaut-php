@@ -8,7 +8,7 @@ use OscarTeam\Payaut\Requests\PayoutManualRequest\DeletePayoutRequest;
 use OscarTeam\Payaut\Requests\PayoutsOverview\GetPayoutRequest;
 use OscarTeam\Payaut\Requests\PayoutsOverview\ListPayoutRequests;
 use OscarTeam\Payaut\Requests\PayoutsOverview\ListPayoutRequestsV2;
-use Saloon\Contracts\Response;
+use Saloon\Http\Response;
 
 class ManagePayouts extends BaseResource
 {

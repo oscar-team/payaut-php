@@ -8,7 +8,7 @@ use OscarTeam\Payaut\Requests\ExternalAccounts\GetExternalAccount;
 use OscarTeam\Payaut\Requests\ExternalAccounts\ListExternalAccounts;
 use OscarTeam\Payaut\Requests\ExternalAccounts\SelectActiveExternalAccount;
 use OscarTeam\Payaut\Requests\ExternalAccounts\UpdateExternalAccount;
-use Saloon\Contracts\Response;
+use Saloon\Http\Response;
 
 class ExternalAccounts extends BaseResource
 {

@@ -6,7 +6,7 @@ use OscarTeam\Payaut\BaseResource;
 use OscarTeam\Payaut\Requests\Balance\GetBalance;
 use OscarTeam\Payaut\Requests\Balance\ListDivisionInformation;
 use OscarTeam\Payaut\Requests\Balance\TransferBalance;
-use Saloon\Contracts\Response;
+use Saloon\Http\Response;
 
 class ManageFunds extends BaseResource
 {

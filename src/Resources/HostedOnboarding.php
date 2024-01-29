@@ -4,7 +4,7 @@ namespace OscarTeam\Payaut\Resources;
 
 use OscarTeam\Payaut\BaseResource;
 use OscarTeam\Payaut\Requests\HostedOnboarding\GenerateHostedOnboardingUrl;
-use Saloon\Contracts\Response;
+use Saloon\Http\Response;
 
 class HostedOnboarding extends BaseResource
 {

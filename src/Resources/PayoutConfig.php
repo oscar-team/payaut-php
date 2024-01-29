@@ -10,7 +10,7 @@ use OscarTeam\Payaut\Requests\PayoutConfig\GetDivisionConfiguration;
 use OscarTeam\Payaut\Requests\PayoutConfig\UpdateAccountHolderConfiguration;
 use OscarTeam\Payaut\Requests\PayoutConfig\UpdateDefaultPayoutConfiguration;
 use OscarTeam\Payaut\Requests\PayoutConfig\UpdateDivisionConfiguration;
-use Saloon\Contracts\Response;
+use Saloon\Http\Response;
 
 class PayoutConfig extends BaseResource
 {

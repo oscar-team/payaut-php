@@ -6,7 +6,7 @@ use OscarTeam\Payaut\BaseResource;
 use OscarTeam\Payaut\Requests\SplitRefunds\CreateSplitRefund;
 use OscarTeam\Payaut\Requests\SplitRefunds\GetSplitRefund;
 use OscarTeam\Payaut\Requests\SplitRefunds\ListSplitRefunds;
-use Saloon\Contracts\Response;
+use Saloon\Http\Response;
 
 class SplitRefunds extends BaseResource
 {
