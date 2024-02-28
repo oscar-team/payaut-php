@@ -2,7 +2,7 @@
 
 namespace OscarTeam\Payaut\Resources;
 
-use OscarTeam\Payaut\BaseResource;
+use Saloon\Http\BaseResource;
 use OscarTeam\Payaut\Requests\PayoutConfig\DeleteAccountHolderConfiguration;
 use OscarTeam\Payaut\Requests\PayoutConfig\GetAccountHolderConfiguration;
 use OscarTeam\Payaut\Requests\PayoutConfig\GetDefaultPayoutConfiguration;

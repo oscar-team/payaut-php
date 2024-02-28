@@ -2,7 +2,7 @@
 
 namespace OscarTeam\Payaut\Resources;
 
-use OscarTeam\Payaut\BaseResource;
+use Saloon\Http\BaseResource;
 use OscarTeam\Payaut\Requests\SplitRefunds\CreateSplitRefund;
 use OscarTeam\Payaut\Requests\SplitRefunds\GetSplitRefund;
 use OscarTeam\Payaut\Requests\SplitRefunds\ListSplitRefunds;

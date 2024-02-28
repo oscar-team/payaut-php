@@ -2,7 +2,7 @@
 
 namespace OscarTeam\Payaut\Resources;
 
-use OscarTeam\Payaut\BaseResource;
+use Saloon\Http\BaseResource;
 use OscarTeam\Payaut\Requests\Accounts\GetAccount;
 use OscarTeam\Payaut\Requests\Accounts\GetAccounts;
 use Saloon\Exceptions\Request\FatalRequestException;

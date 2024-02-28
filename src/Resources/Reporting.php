@@ -2,7 +2,7 @@
 
 namespace OscarTeam\Payaut\Resources;
 
-use OscarTeam\Payaut\BaseResource;
+use Saloon\Http\BaseResource;
 use OscarTeam\Payaut\Requests\Reporting\ListReports;
 use OscarTeam\Payaut\Requests\Reporting\RequestReports;
 use Saloon\Http\Response;

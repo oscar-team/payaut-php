@@ -2,7 +2,7 @@
 
 namespace OscarTeam\Payaut\Resources;
 
-use OscarTeam\Payaut\BaseResource;
+use Saloon\Http\BaseResource;
 use OscarTeam\Payaut\Requests\AccountHolders\CreateAccountHolder;
 use OscarTeam\Payaut\Requests\AccountHolders\DeleteAccountHolder;
 use OscarTeam\Payaut\Requests\AccountHolders\GetAccountHolder;

@@ -2,7 +2,7 @@
 
 namespace OscarTeam\Payaut\Resources;
 
-use OscarTeam\Payaut\BaseResource;
+use Saloon\Http\BaseResource;
 use OscarTeam\Payaut\Requests\CancelSplit\CancelSplit;
 use OscarTeam\Payaut\Requests\SplitPayments\CreateSplitPayment;
 use OscarTeam\Payaut\Requests\SplitPayments\GetSplitPayment;

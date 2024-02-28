@@ -2,7 +2,7 @@
 
 namespace OscarTeam\Payaut\Resources;
 
-use OscarTeam\Payaut\BaseResource;
+use Saloon\Http\BaseResource;
 use OscarTeam\Payaut\Requests\Balance\GetBalance;
 use OscarTeam\Payaut\Requests\Balance\ListDivisionInformation;
 use OscarTeam\Payaut\Requests\Balance\TransferBalance;

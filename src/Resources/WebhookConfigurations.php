@@ -2,7 +2,7 @@
 
 namespace OscarTeam\Payaut\Resources;
 
-use OscarTeam\Payaut\BaseResource;
+use Saloon\Http\BaseResource;
 use OscarTeam\Payaut\Requests\Webhooks\CreateWebhookConfiguration;
 use OscarTeam\Payaut\Requests\Webhooks\GetWebhookConfiguration;
 use OscarTeam\Payaut\Requests\Webhooks\UpdateWebhookConfiguration;

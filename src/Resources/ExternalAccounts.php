@@ -2,7 +2,7 @@
 
 namespace OscarTeam\Payaut\Resources;
 
-use OscarTeam\Payaut\BaseResource;
+use Saloon\Http\BaseResource;
 use OscarTeam\Payaut\Requests\ExternalAccounts\CreateExternalAccount;
 use OscarTeam\Payaut\Requests\ExternalAccounts\GetExternalAccount;
 use OscarTeam\Payaut\Requests\ExternalAccounts\ListExternalAccounts;

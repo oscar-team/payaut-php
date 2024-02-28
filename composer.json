@@ -2,11 +2,11 @@
   "name": "oscar-team/payaut-php",
   "description": "Payaut Php SDK",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "Mueez Sattar Khan",
-      "email": "email@example.com"
+      "email": "msk@hejoscar.dk"
     }
   ],
   "require": {

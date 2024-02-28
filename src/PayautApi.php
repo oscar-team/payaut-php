@@ -9,13 +9,18 @@ use OscarTeam\Payaut\Resources\Reporting;
 use OscarTeam\Payaut\Resources\SplitPayments;
 use OscarTeam\Payaut\Resources\Transactions;
 use OscarTeam\Payaut\Resources\WebhookConfigurations;
+use Saloon\Http\Auth\TokenAuthenticator;
 use Saloon\Http\Connector;
 
 class PayautApi extends Connector
 {
     public function __construct(protected string $token, protected string $environment = 'prod')
     {
-        $this->withTokenAuth($token);
+    }
+
+    protected function defaultAuth(): TokenAuthenticator
+    {
+        return new TokenAuthenticator($this->token);
     }
 
     public function resolveBaseUrl(): string
